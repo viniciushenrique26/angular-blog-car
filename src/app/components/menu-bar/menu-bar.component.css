@@ -1,0 +1,59 @@
+.container__menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 2em;
+}
+
+.menu-bar__logo img {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+}
+
+.container__menu-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5em;
+  margin: 0;
+  padding: 0;
+}
+
+.container__menu-bar ul li {
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+}
+
+.container__menu-bar ul li a:hover {
+  color: #ff0000;
+  transition: .5s ease-in-out;
+
+}
+
+.menu-bar__search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.menu-bar__search input {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+
