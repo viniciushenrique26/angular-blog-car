@@ -11,6 +11,10 @@
   height: auto;
   cursor: pointer;
 }
+.menu-bar__hamburger {
+  display: none;
+  cursor: pointer;
+}
 
 .container__menu-bar ul {
   display: flex;
@@ -57,3 +61,12 @@
 }
 
 
+@media screen and (max-width: 600px) {
+  .menu-bar__logo {
+    display: none;
+
+
+  }
+
+
+}
