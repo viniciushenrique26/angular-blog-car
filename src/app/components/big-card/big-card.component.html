@@ -1,15 +1,15 @@
 <div class="container__big-card">
-  <a class="bird-card__link" href="#">
-      <div class="big-card__image">
-        <img src="{{ imageCover }}" alt="" height="200px">
-      </div>
-      <div class="big-card__title">
-        <h1>{{cardTitle}}</h1>
-      </div>
-      <div class="big-card__description">
-        <p>{{cardDescription}}</p>
-      </div>
-  </a>
+
+    <div class="big-card__image">
+      <img src="{{ imageCover }}" alt="" height="200px">
+    </div>
+    <div class="big-card__title">
+      <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
+    </div>
+     <div class="big-card__description">
+      <p><a [routerLink]="['content', Id]"> {{cardDescription}} </a></p>
+    </div>
+
 </div>
 
 

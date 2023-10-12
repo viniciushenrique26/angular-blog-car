@@ -1,0 +1,21 @@
+<div class="bg-full" >
+  <header>
+    <app-menu-bar></app-menu-bar>
+  </header>
+
+
+  <div class="btn-go-back"><a [routerLink]="['']"> ↤ Back </a></div>
+  <div class="container__content">
+    <div class="content__image">
+      <img src="{{ imageCover }}" alt="">
+    </div>
+    <div class="content__title">
+      <h1> {{ contentTitle}} </h1>
+    </div>
+    <div class="content__description">
+      <p>{{ contentDescription }}</p>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
